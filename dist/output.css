@@ -627,6 +627,14 @@ h6{
   }
 }
 
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
 .menu-item{
   position: relative;
   display: flex;
@@ -829,10 +837,6 @@ h6{
 
 .h-80{
   height: 20rem;
-}
-
-.h-\[250px\]{
-  height: 250px;
 }
 
 .min-h-\[400px\]{
@@ -1110,11 +1114,6 @@ h6{
   --tw-gradient-from: #0c4a6e;
   --tw-gradient-to: rgb(12 74 110 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.via-pink-500{
-  --tw-gradient-to: rgb(236 72 153 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), #ec4899, var(--tw-gradient-to);
 }
 
 .via-cyan-900{
